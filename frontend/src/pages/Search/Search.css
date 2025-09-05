@@ -1,0 +1,112 @@
+.search-root {
+  background:  #13182F;
+  min-height: 100vh;
+  color: #e0e6ef;
+  font-family: 'Inter', Arial, sans-serif;
+  padding: 40px 0;
+}
+
+.search-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  margin: 32px 40px 0 40px;
+  gap: 16px;
+}
+
+.search-input {
+  flex: 1;
+  background: #162036;
+  border: none;
+  outline: none;
+  color: #e0e6ef;
+  font-size: 1rem;
+  padding: 16px 20px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px #3a43f2;
+}
+
+.search-btn {
+  background: #68ecba;
+  color:  #10141b;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 34px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+
+.thread-list {
+  margin: 30px 40px 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.thread-card {
+  background:#1d2530;
+  border-radius: 18px;
+  padding: 28px 30px 24px 24px;
+  box-shadow: 0 2px 12px rgba(10, 18, 50, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.thread-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+
+.thread-icon {
+  font-size: 1.15rem;
+  color: #a8aebf;
+}
+
+.thread-title {
+  color: #e0e6ef;
+}
+
+.thread-summary {
+  color: #a8aebf;
+  font-size: 0.97rem;
+}
+
+.thread-meta {
+  color: #737792;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.open-thread-btn {
+  align-self: flex-end;
+  background: #68ecba;
+  color:  #10141b;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 4px;
+  letter-spacing: 0.01em;
+  transition: background 0.2s;
+  font-weight: bold;
+}
