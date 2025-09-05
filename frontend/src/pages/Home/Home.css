@@ -1,0 +1,8 @@
+.trending-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+  margin: 32px 0 18px 5px;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(50,100,200,0.08);
+}

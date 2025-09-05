@@ -1,0 +1,50 @@
+.rec-threads-container {
+  background: #121a28;
+  border-radius: 20px;
+  padding: 28px 20px 20px 20px;
+  max-width: 380px;
+  color: #e4eaf2;
+}
+.rec-threads-header {
+  color: #b2cdfa;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.rec-threads-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.rec-thread-card {
+  display: flex;
+  align-items: center;
+  background: #162036;
+  border-radius: 14px;
+  padding: 20px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.rec-thread-card:hover {
+  background: #243360;
+}
+.rec-thread-hash {
+  font-size: 1.5rem;
+  color: #77a7f6;
+  font-weight: bold;
+  margin-right: 18px;
+}
+.rec-thread-info {
+  display: flex;
+  flex-direction: column;
+}
+.rec-thread-title {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #e4eaf2;
+}
+.rec-thread-members {
+  font-size: 0.98rem;
+  color: #9daccc;
+  margin-top: 2px;
+}
