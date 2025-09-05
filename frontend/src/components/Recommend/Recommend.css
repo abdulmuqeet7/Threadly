@@ -4,12 +4,14 @@
   padding: 28px 20px 20px 20px;
   max-width: 380px;
   color: #e4eaf2;
+  border:1px solid #575f6a;
 }
 .rec-threads-header {
   color: #b2cdfa;
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 10px;
+  margin-top: -10px;
 }
 .rec-threads-list {
   display: flex;

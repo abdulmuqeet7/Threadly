@@ -1,16 +1,17 @@
 .community-card {
-  width: 65%;              /* Occupy 75% of the screen width */
-  margin: 40px 0;          /* Only top & bottom margin (align left) */
+  width: 100%;           
+  margin: 40px 0; 
   font-family: Arial, sans-serif;
   border-left: 5px ;
   padding-left: 16px; 
+  margin-left: -100px;
 }
 
 .card-block {
   background: #1d2530;
   color: #fff;
   border-radius: 15px;
-  padding: 12px;
+  padding: 30px;
   margin-bottom: 12px; 
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
 }
