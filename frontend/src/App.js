@@ -1,13 +1,21 @@
+import React, { useState } from "react";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home/Home";
+import Search from "./pages/Search/Search";
+import Thread from "./pages/Thread/Thread";
 
-import './App.css';
-import Home from './pages/Home/Home'
 function App() {
+  const [activePage, setActivePage] = useState("Home");
+
   return (
     <div className="App">
-     <Home></Home>
+      <Navbar activePage={activePage} setActivePage={setActivePage} />
+      {activePage === "Home" && <Home />}
+      {activePage === "Search" && <Search />}
+      {activePage === "Dashboard" && <Thread />}
     </div>
   );
 }
+
 export default App;
-
-
