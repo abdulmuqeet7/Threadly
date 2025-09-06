@@ -1,2 +1,9 @@
 backend/venv/
 /backend/app/__pycache__
+
+__pycache__/
+*.pyc
+*.pkl
+*.model
+*.pt
+*.h5
