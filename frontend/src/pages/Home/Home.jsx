@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Recommend from '../../components/Recommend/Recommend';
-import CommunityCard from '../../components/ThreadCard/ThreadCard';
+import ThreadCard from '../../components/ThreadCard/ThreadCard';
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <div className="home-content">
         <div className="threads-section">
           <div className="trending-title">Trending Threads</div>
-          <CommunityCard />
+          <ThreadCard />
         </div>
         <div className="recommend-section">
           <Recommend />
