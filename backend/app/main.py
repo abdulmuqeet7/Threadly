@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers.threads import router as threads_router
 from app.routers.ai import router as ai_router
+from app.routers.ai2 import router as ai2_router   
 
 app = FastAPI(title="Threadly API 🚀")
 
@@ -22,7 +23,7 @@ app.add_middleware(
 # ✅ Include thread routes
 app.include_router(threads_router)
 app.include_router(ai_router) 
-
+app.include_router(ai2_router) 
 @app.get("/")
 def root():
     return {"message": "Welcome to Threadly API 🚀", "docs": "/docs"}
