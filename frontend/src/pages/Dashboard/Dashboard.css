@@ -1,0 +1,96 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #181a20;
+  color: #e4e7eb;
+  font-family: "Inter", Arial, sans-serif;
+  padding: 28px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.create-thread-btn {
+  background: #26dd76;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.create-thread-btn:hover {
+  background: #22be67;
+}
+
+.thread-form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 600;
+}
+
+.thread-form input,
+.thread-form textarea {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #464a57;
+  background: #20232b;
+  color: #d0d3da;
+  padding: 10px 14px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.submit-btn {
+  margin-top: 18px;
+  background: #2979ff;
+  color: white;
+  border: none;
+  padding: 14px 0;
+  width: 100%;
+  border-radius: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+.submit-btn:hover {
+  background: #1f5fdd;
+}
+
+.thread-list {
+  margin-top: 28px;
+}
+
+.thread-card {
+  background: #20232b;
+  border-radius: 16px;
+  padding: 20px 26px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+.thread-title {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.thread-summary {
+  font-weight: 600;
+  color: #acecc9;
+  margin-bottom: 12px;
+}
+
+.thread-description {
+  color: #d0d3da;
+  font-size: 1rem;
+  line-height: 1.38;
+}
